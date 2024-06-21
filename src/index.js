@@ -21,7 +21,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(() => {
     root.render(
         <React.StrictMode>
-            <Blocks/>
+            <App />
         </React.StrictMode>,
         document.getElementById('root')
     );
